@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alibaba slidee</title>
+        <style>
+            .main{
+                height: 350px;
+                width: 600px;
+                border: 1px solid;
+                overflow: hidden;
+            }
+            .slider{
+                height: 100%;
+                width: 3600px;
+                background-color: aqua;
+                animation-name: slidy;
+                animation-duration: 12s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes slidy{
+                0%{
+                  margin-left: o;  
+                }
+                15%{
+                    margin-left: 0;
+                }
+                16%{
+                    margin-left: -600px;
+                }
+                30%{
+                    margin-left: -600px;
+                }
+                31%{
+                    margin-left: -1200px;
+                }
+                50%{
+                    margin-left: -1200px;
+                }
+                51%{
+                    margin-left: -1800px;
+                }
+                65%{
+                    margin-left: -1800px;
+                }
+                66%{
+                    margin-left: -2400px;
+                }
+                80%{
+                    margin-left: -2400px;
+                }
+                81%{
+                    margin-left: -3000px;
+                }
+                100%{
+                    margin-left: -3000px;
+                }
+            }
+            .slide{
+                height: 100%;
+                width: 600px;
+                display: inline-block;
+                vertical-align: top;
+            }
+            .s1{
+                background-image: url(./main\ img1.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            .s2{
+                margin-left: -4px;
+                background-image: url(./main\ img\ 2.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            .s3{
+                margin-left: -4px;
+                background-image: url(./main\ img\ 3.png);
+                background-position: center;
+                background-size: cover;
+            }
+            .s4{
+                margin-left: -4px;
+                background-image: url(./main\ img\ 4.png);
+                background-position: center;
+                background-size: cover;
+            }
+            .s5{
+                margin-left: -4px;
+                background-image: url(./main\ img\ 5.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            .s6{
+                margin-left: -4px;
+                background-image: url(./main\ img\ 6.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+        </style>
+</body>
+    <div class="main">
+        <div class="slider">
+            <div class="slide s1"></div>
+            <div class="slide s2"></div>
+            <div class="slide s3"></div>
+            <div class="slide s4"></div>
+            <div class="slide s5"></div>
+            <div class="slide s6"></div>
+        </div>
+    </div>
+</html>
